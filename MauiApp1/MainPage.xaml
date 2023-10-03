@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="10">
+            <Button Text="Navigate to C# Sample"/>
+
+            <Label Text="Simple expander" FontSize="24" FontAttributes="Bold"/>
+
+            <mct:Expander>
+                <mct:Expander.Header>
+                    <Label Text="Simple Expander 1 (Tap Me)" FontSize="16" FontAttributes="Bold"/>
+                </mct:Expander.Header>
+
+                <mct:Expander.Content>
+                    <VerticalStackLayout>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                    </VerticalStackLayout>
+                </mct:Expander.Content>
+            </mct:Expander>
+            <mct:Expander>
+                <mct:Expander.Header>
+                    <Label Text="Simple Expander 2 (Tap Me)" FontSize="16" FontAttributes="Bold"/>
+                </mct:Expander.Header>
+
+                <mct:Expander.Content>
+                    <VerticalStackLayout>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                    </VerticalStackLayout>
+                </mct:Expander.Content>
+            </mct:Expander>
+            <mct:Expander>
+                <mct:Expander.Header>
+                    <Label Text="Simple Expander 3 (Tap Me)" FontSize="16" FontAttributes="Bold"/>
+                </mct:Expander.Header>
+
+                <mct:Expander.Content>
+                    <VerticalStackLayout>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                        <Label Text="Item 1"/>
+                        <Label Text="Item 2"/>
+                    </VerticalStackLayout>
+                </mct:Expander.Content>
+            </mct:Expander>
+
+            <Label Text="Something"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
